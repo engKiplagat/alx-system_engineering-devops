@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -A1p | sed 's/$/,/' | sed -e ':a' -e 'N' -e '$!ba' -e 's/\n//g' | sed 's/\(.*\),$/\1/' && echo
