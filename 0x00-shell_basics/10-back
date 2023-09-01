@@ -1,2 +1,2 @@
 #!/bin/bash
-cd ~
+back_cd.sh
